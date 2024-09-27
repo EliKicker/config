@@ -24,6 +24,9 @@ Plugin 'uiiaoo/java-syntax.vim'
 " Load conoline
 Plugin 'miyakogi/conoline.vim'
 
+" Load haskell-vim
+Plugin 'neovimhaskell/haskell-vim'
+
 " Functioncall to vundle to end loading plugins
 call vundle#end()
 
@@ -137,6 +140,20 @@ let g:conoline_auto_enable = 1 " auomatically enable conoline
 " let g:conoline_color_normal_nr_dark = 'guibg=#5c5c5c'
 " let g:conoline_color_insert_dark = 'guibg=#5c5c5c'
 " let g:conoline_color_insert_nr_dark = 'guibg=#5c5c5c'
+
+" haskell-vim options
+let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
+let g:haskell_enable_recursivedo = 1      " to enable highlighting of `mdo` and `rec`
+let g:haskell_enable_arrowsyntax = 1      " to enable highlighting of `proc`
+let g:haskell_enable_pattern_synonyms = 1 " to enable highlighting of `pattern`
+let g:haskell_enable_typeroles = 1        " to enable highlighting of type roles
+let g:haskell_enable_static_pointers = 1  " to enable highlighting of `static`
+let g:haskell_backpack = 1                " to enable highlighting of backpack keywords
+" let g:haskell_classic_highlighting = 1
+" let g:haskell_disable_TH = 1
+" let g:haskell_indent_disable = 1
+"
+" Can also set indent for specific tokens... (but too lazy for that...)
 
 " KEY BINDINGS ----------------------------------------------
 
