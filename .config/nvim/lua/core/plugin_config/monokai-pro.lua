@@ -1,2 +1,0 @@
-require("monokai-pro").setup {}
-

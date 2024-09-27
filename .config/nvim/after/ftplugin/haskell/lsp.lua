@@ -1,2 +1,2 @@
 --vim.cmd [[ colorscheme monokai-pro-classic ]]
-vim.cmd [[ colorscheme molokai ]]
+--vim.cmd [[ colorscheme molokai ]]

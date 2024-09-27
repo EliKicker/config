@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/eliaskicker/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
+  ["haskell-vim"] = {
+    loaded = true,
+    path = "/home/eliaskicker/.local/share/nvim/site/pack/packer/start/haskell-vim",
+    url = "https://github.com/neovimhaskell/haskell-vim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/eliaskicker/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -93,11 +98,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/eliaskicker/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["monokai-pro.nvim"] = {
-    loaded = true,
-    path = "/home/eliaskicker/.local/share/nvim/site/pack/packer/start/monokai-pro.nvim",
-    url = "https://github.com/loctvl842/monokai-pro.nvim"
   },
   ["neovim-molokai"] = {
     loaded = true,
@@ -138,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/eliaskicker/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/home/eliaskicker/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
   }
 }
 

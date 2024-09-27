@@ -15,7 +15,7 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- Add plugins
 	use 'ellisonleao/gruvbox.nvim'
-  use 'loctvl842/monokai-pro.nvim'
+  --use 'loctvl842/monokai-pro.nvim'
 	--use 'UtkarshVerma/molokai.nvim'
   use 'tamelion/neovim-molokai'
   use 'nvim-tree/nvim-tree.lua'
@@ -32,6 +32,8 @@ return require('packer').startup(function(use)
 		'williamboman/mason-lspconfig.nvim',
 		'neovim/nvim-lspconfig',
 	}
+  use 'neovimhaskell/haskell-vim'
+  use 'voldikss/vim-floaterm'
 
   if packer_bootstrap then
     require('packer').sync()
